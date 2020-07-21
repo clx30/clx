@@ -1,0 +1,22 @@
+--cpu=Cortex-M4.fp.sp
+"..\LIB\Algorithm_ver_00_01_07.lib"
+"..\LIB\can_master.lib"
+"..\LIB\Axis12_V04.lib"
+"..\LIB\INTERLAYER_VER01_10_08.lib"
+".\objects\appinit.o"
+".\objects\bsp_config.o"
+".\objects\fsm.o"
+".\objects\interlayer.o"
+".\objects\logic.o"
+".\objects\main.o"
+".\objects\reset.o"
+".\objects\teach.o"
+".\objects\usertool.o"
+".\objects\logicnotused.o"
+".\objects\logicterm.o"
+".\objects\axisconfig.o"
+".\objects\startup_stm32f40_41xxx.o"
+--strict --scatter ".\Objects\App.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\App.map" -o .\Objects\App.axf

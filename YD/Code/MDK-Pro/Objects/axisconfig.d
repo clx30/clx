@@ -1,0 +1,12 @@
+.\objects\axisconfig.o: ..\APP\Config\AxisConfig.c
+.\objects\axisconfig.o: ..\APP\Config\axisconfig.h
+.\objects\axisconfig.o: ..\LIB\bsplib.h
+.\objects\axisconfig.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\axisconfig.o: ..\APP\datadefine.h
+.\objects\axisconfig.o: ..\LIB\lock.h
+.\objects\axisconfig.o: ..\LIB\InterLayer_config.h
+.\objects\axisconfig.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\axisconfig.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\axisconfig.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\axisconfig.o: ..\APP\Tool\usertool.h
+.\objects\axisconfig.o: ..\APP\iodefine.h

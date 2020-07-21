@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\appinit.o"
+".\objects\fsm.o"
+".\objects\logic.o"
+".\objects\main.o"
+".\objects\maintask.o"
+".\objects\reset.o"
+".\objects\teach.o"
+".\objects\feed.o"
+".\objects\weld.o"
+".\objects\axismove.o"
+".\objects\usertool.o"
+".\objects\bsp_config.o"
+".\objects\interlayer.o"
+".\objects\axisconfig.o"
+"..\LIB\Algorithm_ver_00_01_08.lib"
+"..\LIB\BspLibA8I24O24_V00_11_02.lib"
+"..\LIB\can_master.lib"
+"..\LIB\INTERLAYER_VER01_10_12.lib"
+".\objects\startup_stm32f40_41xxx_iap.o"
+--library_type=microlib --strict --scatter ".\Objects\App.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\App.map" -o .\Objects\App.axf

@@ -1,0 +1,12 @@
+.\objects\usertool.o: ..\APP\Tool\UserTool.c
+.\objects\usertool.o: ..\APP\Tool\USERTOOL.H
+.\objects\usertool.o: ..\APP\DataDefine.h
+.\objects\usertool.o: ..\LIB\lock.h
+.\objects\usertool.o: ..\LIB\InterLayer_config.h
+.\objects\usertool.o: ..\LIB\bsplib.h
+.\objects\usertool.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usertool.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\usertool.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usertool.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\usertool.o: ..\APP\iodefine.h
+.\objects\usertool.o: ..\LIB\can_master.h
